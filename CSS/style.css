@@ -1,5 +1,6 @@
 body {
     background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -23,17 +24,34 @@ nav {
     height: 20px;
     border-radius: 20px;
     background-color: #9C69E2;
+    margin-top: 15px;
 }
 
 .nav-shapes-rectangle {
     width: 20px;
     height: 35px;
     border-radius: 20px;
-    background-color: #F063B8;;
+    background-color: #F063B8;
+    margin-left: 9px;
+}
+
+.nav-links {
+    width: 30%;
+    margin-right: 410px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .nav-links a {
     text-decoration: none;
+    font-size: 16px;
+    color: #4B5D68;
+}
+
+.nav-links a:first-child {
+    font-weight: bold;
+    color: #212353;
 }
 
 .nav-request {
@@ -41,5 +59,17 @@ nav {
     height: 60px;
     border-radius: 50px;
     background-color: #FFFFFF;
-    box-shadow: rgb(75, 93, 104, 0.1);
+    box-shadow: 0px 5px 5px rgb(75, 93, 104, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-request-text {
+    font-size: 16px;
+    color: #212353;
+}
+
+.nav-request i {
+    color:  #9C69E2;
 }
